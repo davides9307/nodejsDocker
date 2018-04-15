@@ -17,8 +17,7 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - setup_remote_docker: version:17.09.0-ce
-      - checkout:
+      - checkout
 
       # Download and cache dependencies
       - restore_cache:
